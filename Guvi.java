@@ -24,16 +24,12 @@ public class Guvi {
 		
 		//Navigate to Guvi Webpage
 		driver.navigate().to("https://www.guvi.in/");
-		/*WebElement e1=driver.findElement(By.className("class=\"bg-green-500 hover:bg-green-600 text-white font-normal py-2 px-4 rounded text-base min-h-8 h-8 align-middle mr-2\""));
-		Actions objAct=new Actions(driver);
-		objAct.moveToElement(e1).click()
-		.build()
-		.perform();*/
+		
 		
 		//Fill Signup form
 		driver.findElement(By.xpath("//a[contains(text(),'Sign up')]")).click();
 		driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Giritharan");
-		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("girikadambari8@gmail.com");
+		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("giriyogan1@gmail.com");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("giri23");
 		driver.findElement(By.xpath("//input[@id='mobileNumber']")).sendKeys("9677749274");
 		driver.findElement(By.xpath("//a[@id='signup-btn']")).click();
