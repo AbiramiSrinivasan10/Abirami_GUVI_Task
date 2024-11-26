@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  LoginTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 26 17:55:33 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>462 seconds (462509 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_011, Search Hotels, Abirami20, S232323, Sydney, Hotel Creek,  , 1, 15-12-2024, 16-12-2024, 1, 0, Search results displayed, Adactin.com - Select Hotel</td>
+<td></td>
+<td>3</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.otherTest.otherScenarioTest()'><b>otherScenarioTest</b><br>Test class: test.otherTest<br>Parameters: TC_030, Check Logout functionality, Abirami20, S232323,  , Logout Succesful, Adactin.com - Logout</td>
+<td></td>
+<td>1</td>
+<td>test.otherTest@1c1bbc4e</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_015, Validate Mandatory fields, Abirami20, S232323, Sydney, John, S,  , 1234567890123456, VISA, 1, 2030, 900, Error message displayed, Please Enter your Address</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_005, Validate Mandatory fields, Abirami20, S232323, Sydney, Hotel Creek, Standard, 1,  , 16-12-2024, 1, 0, Error message displayed, Please Select Check-In Date</td>
+<td></td>
+<td>3</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_018, Validate Mandatory fields, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456, VISA,  , 2030, 900, Error message displayed, Please Select your Credit Card Expiry Month</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.otherTest.otherScenarioTest()'><b>otherScenarioTest</b><br>Test class: test.otherTest<br>Parameters: TC_026, Check Booked Itinerary, Abirami20, S232323,  , Booked Itinerary displayed, Adactin.com - Select Hotel</td>
+<td></td>
+<td>2</td>
+<td>test.otherTest@1c1bbc4e</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_014, Validate Mandatory fields, Abirami20, S232323, Sydney, John,  , H-23, Wall Street, Syndey, 1234567890123456, VISA, 1, 2030, 900, Error message displayed, Please Enter you Last Name</td>
+<td></td>
+<td>3</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_021, Validate Card number, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 12345678901, VISA, 1, 2030, 900, Error message displayed, Please Enter your 16 Digit Credit Card Number</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_022, Validate Expiry date, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456, VISA, 1, 2013, 900, Error message not displayed, Expiry date is in past</td>
+<td></td>
+<td>3</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_020, Validate Mandatory fields, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456, VISA, 1, 2030,  , Error message displayed, Please Enter your Credit Card CVV Number</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_017, Validate Mandatory fields, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456,  , 1, 2030, 900, Error message displayed, Please Select your Credit Card Type</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_010, Search Hotels, Abirami20, S232323, Sydney,  ,  , 1, 15-12-2024, 16-12-2024, 1, 0, Search results displayed, Adactin.com - Select Hotel</td>
+<td></td>
+<td>2</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.loginTest.loginTestCase()'><b>loginTestCase</b><br>Test class: test.loginTest<br>Parameters: TC_001, Valid Login Test, Abirami20, S232323, Login Successful, Adactin.com - Search Hotel</td>
+<td></td>
+<td>1</td>
+<td>test.loginTest@4d1c00d0</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_006, Validate Mandatory fields, Abirami20, S232323, Sydney, Hotel Creek, Standard, 1, 15-12-2024,  , 1, 0, Error message displayed, Please Select Check-Out Date</td>
+<td></td>
+<td>3</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_023, Booking scenario, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456, VISA, 1, 2030, 900, Order number generated,  </td>
+<td></td>
+<td>9</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_009, Validate inputs, Abirami20, S232323, Sydney, Hotel Creek, Standard, 1, 17-12-2024, 16-12-2024, 1, 0, Error message displayed, Check-In Date shall be before than Check-Out Date</td>
+<td></td>
+<td>2</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.otherTest.otherScenarioTest()'><b>otherScenarioTest</b><br>Test class: test.otherTest<br>Parameters: TC_028, Click single checkbox and cancel selected button, Abirami20, S232323, J6YU0CC1A8, Booking Cancelled,  </td>
+<td></td>
+<td>28</td>
+<td>test.otherTest@1c1bbc4e</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_003, Validate Mandatory fields, Abirami20, S232323,  , Hotel Creek, Standard, 1, 15-12-2024, 16-12-2024, 1, 0, Error message displayed, Please Select a Location</td>
+<td></td>
+<td>3</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.otherTest.otherScenarioTest()'><b>otherScenarioTest</b><br>Test class: test.otherTest<br>Parameters: TC_027, Check Cancel button in screen, Abirami20, S232323, I6CE1A0GTG, Booking Cancelled,  </td>
+<td></td>
+<td>28</td>
+<td>test.otherTest@1c1bbc4e</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_019, Validate Mandatory fields, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456, VISA, 1,  , 900, Error message displayed, Please Select your Credit Card Expiry Year</td>
+<td></td>
+<td>3</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_024, Validate booked data, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey, 1234567890123456, VISA, 1, 2030, 900, Second name not displayed, S</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_004, Validate Mandatory fields, Abirami20, S232323, Sydney, Hotel Creek, Standard,  , 15-12-2024, 16-12-2024, 1, 0, Error message displayed, Please Select Total Number of Rooms</td>
+<td></td>
+<td>2</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.selectHotelTest.selectTest()'><b>selectTest</b><br>Test class: test.selectHotelTest<br>Parameters: TC_025, Select a Hotel from search result, Abirami20, S232323, Sydney, Hotel Selected, Adactin.com - Book A Hotel</td>
+<td></td>
+<td>3</td>
+<td>test.selectHotelTest@ba2f4ec</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_012, Search Hotels, Abirami20, S232323, Sydney,  , Standard, 1, 15-12-2024, 16-12-2024, 1, 0, Search results displayed, Adactin.com - Select Hotel</td>
+<td></td>
+<td>3</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_008, Validate inputs, Abirami20, S232323, Sydney, Hotel Creek, Standard, 1, abcd, abcd, 1, 0, Error message not displayed, Invalid date</td>
+<td></td>
+<td>28</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.otherTest.otherScenarioTest()'><b>otherScenarioTest</b><br>Test class: test.otherTest<br>Parameters: TC_029, Click multiple checkbox and cancel selected button, Abirami20, S232323, 2STADYY9E8,MW2104R5WC, Booking Cancelled,  </td>
+<td></td>
+<td>53</td>
+<td>test.otherTest@1c1bbc4e</td></tr>
+<tr>
+<td title='test.loginTest.loginTestCase()'><b>loginTestCase</b><br>Test class: test.loginTest<br>Parameters: TC_002, Invalid Login Test, Abirami, S232323, Login failed, Invalid Login details or Your Password might have expired. Click here to reset your password</td>
+<td></td>
+<td>1</td>
+<td>test.loginTest@4d1c00d0</td></tr>
+<tr>
+<td title='test.searchHotelTest.searchTest()'><b>searchTest</b><br>Test class: test.searchHotelTest<br>Parameters: TC_007, Validate Mandatory fields, Abirami20, S232323, Sydney, Hotel Creek, Standard, 1, 15-12-2024, 16-12-2024,  , 0, Error message displayed, Please Select Adults per Room</td>
+<td></td>
+<td>3</td>
+<td>test.searchHotelTest@367ffa75</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_013, Validate Mandatory fields, Abirami20, S232323, Sydney,  , S, H-23, Wall Street, Syndey, 1234567890123456, VISA, 1, 2030, 900, Error message displayed, Please Enter your First Name</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+<tr>
+<td title='test.bookaHotelTest.bookTest()'><b>bookTest</b><br>Test class: test.bookaHotelTest<br>Parameters: TC_016, Validate Mandatory fields, Abirami20, S232323, Sydney, John, S, H-23, Wall Street, Syndey,   , VISA, 1, 2030, 900, Error message displayed, Please Enter your 16 Digit Credit Card Number</td>
+<td></td>
+<td>4</td>
+<td>test.bookaHotelTest@49438269</td></tr>
+</table><p>
+</body>
+</html>
