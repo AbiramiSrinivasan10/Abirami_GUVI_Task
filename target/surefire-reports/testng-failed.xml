@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="lgTest(failed)" verbose="0">
+    <classes>
+      <class name="testCase.otherTest">
+        <methods>
+          <include name="browserClose"/>
+          <include name="launchAndLoadURL"/>
+          <include name="otherScenarioTest" invocation-numbers="1 2 3"/>
+          <include name="reportClose"/>
+          <include name="reportInitilization"/>
+          <include name="testDetails"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- testCase.otherTest -->
+    </classes>
+  </test> <!-- lgTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

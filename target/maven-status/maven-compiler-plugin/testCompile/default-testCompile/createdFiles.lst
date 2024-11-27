@@ -1,0 +1,13 @@
+testCase\bookaHotelTest.class
+pages\bookingConfirmationPage.class
+base\projectSpecification.class
+pages\searchHotelPage.class
+testCase\selectHotelTest.class
+pages\bookaHotelPage.class
+pages\loginPage.class
+base\utility.class
+pages\bookedItineraryPage.class
+pages\selectHotelPage.class
+testCase\searchHotelTest.class
+testCase\loginTest.class
+testCase\otherTest.class
