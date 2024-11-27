@@ -99,7 +99,7 @@
     		<version>3.5.1</version>
     		<configuration>
 			    <suiteXmlFiles>
-			    <suiteXmlFile>SearchHotelTest.xml</suiteXmlFile>
+			    <suiteXmlFile>adactinTest.xml</suiteXmlFile>
 			    </suiteXmlFiles>
 			</configuration>
     	</plugin>
