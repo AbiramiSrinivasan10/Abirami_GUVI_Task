@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="17" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-15T19:08:52 IST" name="Suite" finished-at="2024-12-15T19:09:55 IST" duration-ms="63495">
+    <groups>
+    </groups>
+    <test started-at="2024-12-15T19:08:52 IST" name="DemoBlazeTest" finished-at="2024-12-15T19:09:55 IST" duration-ms="63495">
+      <class name="testCase.paymentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.paymentTest@d35dea7]" started-at="2024-12-15T19:08:52 IST" name="setup" finished-at="2024-12-15T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testCase.paymentTest@d35dea7]" started-at="2024-12-15T19:09:44 IST" name="testDetails" finished-at="2024-12-15T19:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.paymentTest@d35dea7]" started-at="2024-12-15T19:09:44 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:09:47 IST" duration-ms="2681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validatePaymentTest()[pri:0, instance:testCase.paymentTest@d35dea7]" started-at="2024-12-15T19:09:47 IST" name="validatePaymentTest" finished-at="2024-12-15T19:09:55 IST" duration-ms="8232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePaymentTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.paymentTest@d35dea7]" started-at="2024-12-15T19:09:55 IST" name="browserClose" finished-at="2024-12-15T19:09:55 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testCase.paymentTest -->
+      <class name="testCase.cartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.cartTest@247bddad]" started-at="2024-12-15T19:08:52 IST" name="setup" finished-at="2024-12-15T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testCase.cartTest@247bddad]" started-at="2024-12-15T19:09:29 IST" name="testDetails" finished-at="2024-12-15T19:09:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.cartTest@247bddad]" started-at="2024-12-15T19:09:29 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:09:32 IST" duration-ms="2658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="addCartTest()[pri:0, instance:testCase.cartTest@247bddad]" started-at="2024-12-15T19:09:32 IST" name="addCartTest" finished-at="2024-12-15T19:09:44 IST" duration-ms="12470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.cartTest@247bddad]" started-at="2024-12-15T19:09:44 IST" name="browserClose" finished-at="2024-12-15T19:09:44 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testCase.cartTest -->
+      <class name="testCase.homepageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.homepageTest@3bd82cf5]" started-at="2024-12-15T19:08:52 IST" name="setup" finished-at="2024-12-15T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.homepageTest@3bd82cf5]" started-at="2024-12-15T19:09:12 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:09:15 IST" duration-ms="2614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testCase.homepageTest@3bd82cf5]" started-at="2024-12-15T19:09:12 IST" name="testDetails" finished-at="2024-12-15T19:09:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="validatehomepageTest()[pri:0, instance:testCase.homepageTest@3bd82cf5]" started-at="2024-12-15T19:09:15 IST" name="validatehomepageTest" finished-at="2024-12-15T19:09:20 IST" duration-ms="5665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehomepageTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.homepageTest@3bd82cf5]" started-at="2024-12-15T19:09:20 IST" name="browserClose" finished-at="2024-12-15T19:09:21 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testCase.homepageTest -->
+      <class name="testCase.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:08:52 IST" name="setup" finished-at="2024-12-15T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:08:57 IST" name="testDetails" finished-at="2024-12-15T19:08:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:08:57 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:09:00 IST" duration-ms="2980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateLoginTest()[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:09:00 IST" name="validateLoginTest" finished-at="2024-12-15T19:09:05 IST" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:09:05 IST" name="browserClose" finished-at="2024-12-15T19:09:05 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:09:05 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:09:08 IST" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateLogoutTest()[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:09:08 IST" name="validateLogoutTest" finished-at="2024-12-15T19:09:12 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.loginTest@fa4c865]" started-at="2024-12-15T19:09:12 IST" name="browserClose" finished-at="2024-12-15T19:09:12 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testCase.loginTest -->
+      <class name="testCase.productdetailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.productdetailTest@544fa968]" started-at="2024-12-15T19:08:52 IST" name="setup" finished-at="2024-12-15T19:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.productdetailTest@544fa968]" started-at="2024-12-15T19:09:21 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:09:23 IST" duration-ms="2373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testCase.productdetailTest@544fa968]" started-at="2024-12-15T19:09:21 IST" name="testDetails" finished-at="2024-12-15T19:09:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="clickproduct()[pri:0, instance:testCase.productdetailTest@544fa968]" started-at="2024-12-15T19:09:23 IST" name="clickproduct" finished-at="2024-12-15T19:09:29 IST" duration-ms="5681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickproduct -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.productdetailTest@544fa968]" started-at="2024-12-15T19:09:29 IST" name="browserClose" finished-at="2024-12-15T19:09:29 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testCase.productdetailTest -->
+      <class name="testCase.signupTest">
+        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:08:52 IST" name="reportInitilization" finished-at="2024-12-15T19:08:52 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitilization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:08:52 IST" name="setup" finished-at="2024-12-15T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:08:52 IST" name="testDetails" finished-at="2024-12-15T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:08:52 IST" name="launchAndLoadURL" finished-at="2024-12-15T19:08:55 IST" duration-ms="3103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateSignupTest()[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:08:55 IST" name="validateSignupTest" finished-at="2024-12-15T19:08:57 IST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:08:57 IST" name="browserClose" finished-at="2024-12-15T19:08:57 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:testCase.signupTest@65e98b1c]" started-at="2024-12-15T19:09:56 IST" name="reportClose" finished-at="2024-12-15T19:09:56 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- testCase.signupTest -->
+    </test> <!-- DemoBlazeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
