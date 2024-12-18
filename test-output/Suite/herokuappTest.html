@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  herokuappTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>herokuappTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 18 20:45:31 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>227 seconds (227093 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.contactDetailTest.checkContactDetail()'><b>checkContactDetail</b><br>Test class: test.contactDetailTest</td>
+<td></td>
+<td>2</td>
+<td>test.contactDetailTest@20d525</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai Apartments,, Anna Nagar,Chennai, Chennai, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts</td>
+<td></td>
+<td>7</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF Road,, Anna Nagar,Chennai, Chennai, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts</td>
+<td></td>
+<td>6</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts</td>
+<td></td>
+<td>32</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts</td>
+<td></td>
+<td>7</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 9087654321, 401,Anugraha Apartments,, JV  colony, Karur, Tamilnadu, 659087, India, Contact Added Successfully, My Contacts</td>
+<td></td>
+<td>6</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.loginTest.validateLoginTest()'><b>validateLoginTest</b><br>Test class: test.loginTest</td>
+<td></td>
+<td>2</td>
+<td>test.loginTest@37ceb1df</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, ErrorMessage Displayed, Contact validation failed: firstName: Path `firstName` is required.</td>
+<td></td>
+<td>6</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.contactListTest.validateContactDisplayTest()'><b>validateContactDisplayTest</b><br>Test class: test.contactListTest</td>
+<td></td>
+<td>2</td>
+<td>test.contactListTest@6200f9cb</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +919944769176, 67-B,Bharathiyar Colony,  ,  , Tamilnadu, 637058, India, Contact Added Successfully, My Contacts</td>
+<td></td>
+<td>6</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.contactDetailTest.editContactDetailTest()'><b>editContactDetailTest</b><br>Test class: test.contactDetailTest</td>
+<td></td>
+<td>8</td>
+<td>test.contactDetailTest@20d525</td></tr>
+<tr>
+<td title='test.loginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: test.loginTest</td>
+<td></td>
+<td>1</td>
+<td>test.loginTest@37ceb1df</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, ErrorMessage Displayed, Contact validation failed: lastName: Path `lastName` is required.</td>
+<td></td>
+<td>5</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.contactListTest.logoutTest()'><b>logoutTest</b><br>Test class: test.contactListTest</td>
+<td></td>
+<td>3</td>
+<td>test.contactListTest@6200f9cb</td></tr>
+<tr>
+<td title='test.signUpTest.validateSignupTest()'><b>validateSignupTest</b><br>Test class: test.signUpTest</td>
+<td></td>
+<td>2</td>
+<td>test.signUpTest@41a2befb</td></tr>
+<tr>
+<td title='test.addContactTest.validateAddContactTest()'><b>validateAddContactTest</b><br>Test class: test.addContactTest<br>Parameters: TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, ErrorMessage Displayed, Contact validation failed: birthdate: Birthdate is invalid</td>
+<td></td>
+<td>5</td>
+<td>test.addContactTest@7c9d8e2</td></tr>
+<tr>
+<td title='test.contactDetailTest.deleteContactTest()'><b>deleteContactTest</b><br>Test class: test.contactDetailTest</td>
+<td></td>
+<td>6</td>
+<td>test.contactDetailTest@20d525</td></tr>
+</table><p>
+</body>
+</html>

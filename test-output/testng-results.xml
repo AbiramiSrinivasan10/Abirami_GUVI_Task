@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="25" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T20:45:31 IST" name="Suite" finished-at="2024-12-18T20:49:19 IST" duration-ms="227093">
+    <groups>
+    </groups>
+    <test started-at="2024-12-18T20:45:31 IST" name="herokuappTest" finished-at="2024-12-18T20:49:19 IST" duration-ms="227093">
+      <class name="test.contactListTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:45:31 IST" name="config" finished-at="2024-12-18T20:45:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:00 IST" name="testDetails" finished-at="2024-12-18T20:49:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:00 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:49:05 IST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="logoutTest()[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:05 IST" name="logoutTest" finished-at="2024-12-18T20:49:09 IST" duration-ms="3586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:09 IST" name="browserClose" finished-at="2024-12-18T20:49:10 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:10 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:49:15 IST" duration-ms="5050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateContactDisplayTest()[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:15 IST" name="validateContactDisplayTest" finished-at="2024-12-18T20:49:17 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactDisplayTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.contactListTest@6200f9cb]" started-at="2024-12-18T20:49:17 IST" name="browserClose" finished-at="2024-12-18T20:49:19 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.contactListTest -->
+      <class name="test.addContactTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:45:31 IST" name="config" finished-at="2024-12-18T20:45:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:45:58 IST" name="testDetails" finished-at="2024-12-18T20:45:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:45:59 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:46:04 IST" duration-ms="5062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:04 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:46:37 IST" duration-ms="32539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Success Scenario]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abirami]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Srinivasan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000-08-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abirami@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919966879856]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[24,Mariamman kovil Street,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Saravana Nagar,Unniyur]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Trichy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Contact Added Successfully]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[My Contacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:37 IST" name="browserClose" finished-at="2024-12-18T20:46:38 IST" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:38 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:46:43 IST" duration-ms="5126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:43 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:46:50 IST" duration-ms="6428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validate Manditory fields]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Srinivasan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000-08-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abirami@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919966879856]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[24,Mariamman kovil Street,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Saravana Nagar,Unniyur]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Trichy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ErrorMessage Displayed]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Contact validation failed: firstName: Path `firstName` is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:50 IST" name="browserClose" finished-at="2024-12-18T20:46:51 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:51 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:46:56 IST" duration-ms="5258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:46:56 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:47:02 IST" duration-ms="5736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validate Manditory fields]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abirami]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000-08-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abirami@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919966879856]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[24,Mariamman kovil Street,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Saravana Nagar,Unniyur]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Trichy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ErrorMessage Displayed]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Contact validation failed: lastName: Path `lastName` is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:02 IST" name="browserClose" finished-at="2024-12-18T20:47:03 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:03 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:47:09 IST" duration-ms="5250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:09 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:47:15 IST" duration-ms="5963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validate Manditory fields]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abirami]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Srinivasan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23-08-2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abirami@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919668798567]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[24,Mariamman kovil Street,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Saravana Nagar,Unniyur]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Trichy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ErrorMessage Displayed]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Contact validation failed: birthdate: Birthdate is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:15 IST" name="browserClose" finished-at="2024-12-18T20:47:16 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:16 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:47:21 IST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:21 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:47:28 IST" duration-ms="7258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validate with same values fields]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Srini]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000-08-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abirami@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919966879856]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[24,Mariamman kovil Street,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Saravana Nagar,Unniyur]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Trichy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Contact Added Successfully]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[My Contacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:28 IST" name="browserClose" finished-at="2024-12-18T20:47:30 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:30 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:47:35 IST" duration-ms="5394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:35 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:47:42 IST" duration-ms="6834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validate PhoneNo without extension ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kadambari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1997-02-14]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[kadambari@gnail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[401,Anugraha Apartments,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[JV  colony]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Karur]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[659087]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Contact Added Successfully]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[My Contacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:42 IST" name="browserClose" finished-at="2024-12-18T20:47:43 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:43 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:47:48 IST" duration-ms="5038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:48 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:47:55 IST" duration-ms="6584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Add contact without Optional Fields]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kamatchi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000-08-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[kamatchi65@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919944769176]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67-B,Bharathiyar Colony]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Contact Added Successfully]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[My Contacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:55 IST" name="browserClose" finished-at="2024-12-18T20:47:56 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:47:56 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:48:01 IST" duration-ms="5025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:48:01 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:48:08 IST" duration-ms="6894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Add another Contact]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Giritharan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000-07-23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[giritharan@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+919966879987]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[435,DLF Road,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Anna Nagar,Chennai]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Contact Added Successfully]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[My Contacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:48:08 IST" name="browserClose" finished-at="2024-12-18T20:48:09 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:48:09 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:48:14 IST" duration-ms="5019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateAddContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:48:14 IST" name="validateAddContactTest" data-provider="excelRead" finished-at="2024-12-18T20:48:22 IST" duration-ms="7340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Add another Contact]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sidhaarth]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1998-07-15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sidh123@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+918797798561]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[37-A,Mullai Apartments,]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Anna Nagar,Chennai]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[637058]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Contact Added Successfully]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[My Contacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.addContactTest@7c9d8e2]" started-at="2024-12-18T20:48:22 IST" name="browserClose" finished-at="2024-12-18T20:48:23 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.addContactTest -->
+      <class name="test.signUpTest">
+        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:45:31 IST" name="reportInitilization" finished-at="2024-12-18T20:45:31 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitilization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:45:31 IST" name="setup" finished-at="2024-12-18T20:45:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:45:31 IST" name="testDetails" finished-at="2024-12-18T20:45:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:45:31 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:45:38 IST" duration-ms="6476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateSignupTest()[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:45:38 IST" name="validateSignupTest" finished-at="2024-12-18T20:45:40 IST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:45:40 IST" name="browserClose" finished-at="2024-12-18T20:45:42 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.signUpTest@41a2befb]" started-at="2024-12-18T20:49:19 IST" name="reportClose" finished-at="2024-12-18T20:49:19 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- test.signUpTest -->
+      <class name="test.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:31 IST" name="setup" finished-at="2024-12-18T20:45:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:42 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:45:46 IST" duration-ms="4816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:42 IST" name="testDetails" finished-at="2024-12-18T20:45:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:46 IST" name="invalidLoginTest" finished-at="2024-12-18T20:45:48 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:48 IST" name="browserClose" finished-at="2024-12-18T20:45:50 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:50 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:45:55 IST" duration-ms="5082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="validateLoginTest()[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:55 IST" name="validateLoginTest" finished-at="2024-12-18T20:45:57 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.loginTest@37ceb1df]" started-at="2024-12-18T20:45:57 IST" name="browserClose" finished-at="2024-12-18T20:45:58 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.loginTest -->
+      <class name="test.contactDetailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:45:31 IST" name="setup" finished-at="2024-12-18T20:45:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:23 IST" name="testDetails" finished-at="2024-12-18T20:48:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:23 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:48:28 IST" duration-ms="5111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="checkContactDetail()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:28 IST" name="checkContactDetail" finished-at="2024-12-18T20:48:31 IST" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContactDetail -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:31 IST" name="browserClose" finished-at="2024-12-18T20:48:33 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:33 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:48:38 IST" duration-ms="5225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="deleteContactTest()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:38 IST" name="deleteContactTest" finished-at="2024-12-18T20:48:44 IST" duration-ms="6322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:44 IST" name="browserClose" finished-at="2024-12-18T20:48:45 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:45 IST" name="launchAndLoadURL" finished-at="2024-12-18T20:48:50 IST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="editContactDetailTest()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:50 IST" name="editContactDetailTest" finished-at="2024-12-18T20:48:59 IST" duration-ms="8158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContactDetailTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.contactDetailTest@20d525]" started-at="2024-12-18T20:48:59 IST" name="browserClose" finished-at="2024-12-18T20:49:00 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.contactDetailTest -->
+    </test> <!-- herokuappTest -->
+  </suite> <!-- Suite -->
+</testng-results>

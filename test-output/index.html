@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\girit\workspace\herokuapp\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.contactDetailTest" class="method navigator-link" hash-for-method="checkContactDetail">checkContactDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.contactDetailTest" class="method navigator-link" hash-for-method="deleteContactTest">deleteContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.contactDetailTest" class="method navigator-link" hash-for-method="editContactDetailTest">editContactDetailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.loginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.contactListTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai...)">validateAddContactTest(TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF...)">validateAddContactTest(TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)">validateAddContactTest(TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, ...)">validateAddContactTest(TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 90876543...)">validateAddContactTest(TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 90876543...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,M...)">validateAddContactTest(TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,M...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +9199447...)">validateAddContactTest(TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +9199447...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)">validateAddContactTest(TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.addContactTest" class="method navigator-link" hash-for-method="validateAddContactTest(TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567...)">validateAddContactTest(TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.contactListTest" class="method navigator-link" hash-for-method="validateContactDisplayTest">validateContactDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.loginTest" class="method navigator-link" hash-for-method="validateLoginTest">validateLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.signUpTest" class="method navigator-link" hash-for-method="validateSignupTest">validateSignupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.contactListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContactDisplayTest">
+                  </a> <!-- validateContactDisplayTest -->
+                  <span class="method-name">validateContactDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.signUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignupTest">
+                  </a> <!-- validateSignupTest -->
+                  <span class="method-name">validateSignupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.contactDetailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContactDetail">
+                  </a> <!-- checkContactDetail -->
+                  <span class="method-name">checkContactDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteContactTest">
+                  </a> <!-- deleteContactTest -->
+                  <span class="method-name">deleteContactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editContactDetailTest">
+                  </a> <!-- editContactDetailTest -->
+                  <span class="method-name">editContactDetailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.addContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai...)">
+                  </a> <!-- validateAddContactTest(TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai Apartments,, Anna Nagar,Chennai, Chennai, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF...)">
+                  </a> <!-- validateAddContactTest(TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF Road,, Anna Nagar,Chennai, Chennai, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)">
+                  </a> <!-- validateAddContactTest(TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, ...)">
+                  </a> <!-- validateAddContactTest(TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, ...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, Contact Added Successfully, My Contacts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 90876543...)">
+                  </a> <!-- validateAddContactTest(TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 90876543...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 9087654321, 401,Anugraha Apartments,, JV  colony, Karur, Tamilnadu, 659087, India, Contact Added Successfully, My Contacts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,M...)">
+                  </a> <!-- validateAddContactTest(TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,M...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, ErrorMessage Displayed, Contact validation failed: firstName: Path `firstName` is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +9199447...)">
+                  </a> <!-- validateAddContactTest(TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +9199447...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +919944769176, 67-B,Bharathiyar Colony,  ,  , Tamilnadu, 637058, India, Contact Added Successfully, My Contacts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)">
+                  </a> <!-- validateAddContactTest(TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, ErrorMessage Displayed, Contact validation failed: lastName: Path `lastName` is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddContactTest(TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567...)">
+                  </a> <!-- validateAddContactTest(TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567...) -->
+                  <span class="method-name">validateAddContactTest</span>
+                  <span class="parameters">(TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567, 24,Mariamman kovil Street,, Saravana Nagar,Unniyur, Trichy, Tamilnadu, 637058, India, ErrorMessage Displayed, Contact validation failed: birthdate: Birthdate is invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest">
+                  </a> <!-- invalidLoginTest -->
+                  <span class="method-name">invalidLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginTest">
+                  </a> <!-- validateLoginTest -->
+                  <span class="method-name">validateLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\girit\workspace\herokuapp\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;herokuappTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.signUpTest&quot;/&gt;
+      &lt;class name=&quot;test.loginTest&quot;/&gt;
+      &lt;class name=&quot;test.addContactTest&quot;/&gt;
+      &lt;class name=&quot;test.contactDetailTest&quot;/&gt;
+      &lt;class name=&quot;test.contactListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- herokuappTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">herokuappTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateAddContactTest')
+data.setCell(0, 2, 'test.addContactTest')
+data.setCell(0, 3, 32539);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'editContactDetailTest')
+data.setCell(1, 2, 'test.contactDetailTest')
+data.setCell(1, 3, 8158);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateAddContactTest')
+data.setCell(2, 2, 'test.addContactTest')
+data.setCell(2, 3, 7340);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateAddContactTest')
+data.setCell(3, 2, 'test.addContactTest')
+data.setCell(3, 3, 7258);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateAddContactTest')
+data.setCell(4, 2, 'test.addContactTest')
+data.setCell(4, 3, 6894);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateAddContactTest')
+data.setCell(5, 2, 'test.addContactTest')
+data.setCell(5, 3, 6834);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateAddContactTest')
+data.setCell(6, 2, 'test.addContactTest')
+data.setCell(6, 3, 6584);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateAddContactTest')
+data.setCell(7, 2, 'test.addContactTest')
+data.setCell(7, 3, 6428);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteContactTest')
+data.setCell(8, 2, 'test.contactDetailTest')
+data.setCell(8, 3, 6322);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateAddContactTest')
+data.setCell(9, 2, 'test.addContactTest')
+data.setCell(9, 3, 5963);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateAddContactTest')
+data.setCell(10, 2, 'test.addContactTest')
+data.setCell(10, 3, 5736);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'logoutTest')
+data.setCell(11, 2, 'test.contactListTest')
+data.setCell(11, 3, 3586);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkContactDetail')
+data.setCell(12, 2, 'test.contactDetailTest')
+data.setCell(12, 3, 2952);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateSignupTest')
+data.setCell(13, 2, 'test.signUpTest')
+data.setCell(13, 3, 2292);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateLoginTest')
+data.setCell(14, 2, 'test.loginTest')
+data.setCell(14, 3, 2273);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateContactDisplayTest')
+data.setCell(15, 2, 'test.contactListTest')
+data.setCell(15, 3, 2165);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'invalidLoginTest')
+data.setCell(16, 2, 'test.loginTest')
+data.setCell(16, 3, 1954);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.contactListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.contactDetailTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.addContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.loginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.signUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportInitilization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.addContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">config</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.contactDetailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">392 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.contactListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">config</span>
+                <span class="method-start">392 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.loginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">392 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.signUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">393 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">410 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSignupTest</span>
+                <span class="method-start">6910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">9208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.loginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">10572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">10572 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">15388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">17343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">18697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginTest</span>
+                <span class="method-start">23780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">26056 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.addContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">26537 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">27976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_001, Success Scenario, Abirami, Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)</span>
+                <span class="method-start">33038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">65580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">67020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_002, Validate Manditory fields,  , Srinivasan, 2000-08-23, abirami@gmail.com, +919966879856, 24,M...)</span>
+                <span class="method-start">72147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">78577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">79930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_003, Validate Manditory fields, Abirami,  , 2000-08-23, abirami@gmail.com, +919966879856, 24,Mari...)</span>
+                <span class="method-start">85188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">90926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">92313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_004, Validate Manditory fields, Abirami, Srinivasan, 23-08-2000, abirami@gmail.com, +919668798567...)</span>
+                <span class="method-start">97563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">103529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">104880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_005, Validate with same values fields, Abi, Srini, 2000-08-23, abirami@gmail.com, +919966879856, ...)</span>
+                <span class="method-start">109876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">117136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">118497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_006, Validate PhoneNo without extension , Kadambari, D, 1997-02-14, kadambari@gnail.com, 90876543...)</span>
+                <span class="method-start">123891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">130726 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">132082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_007, Add contact without Optional Fields, Kamatchi, S, 2000-08-23, kamatchi65@gmail.com, +9199447...)</span>
+                <span class="method-start">137120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">143706 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">145120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_008, Add another Contact, Giritharan, A, 2000-07-23, giritharan@gmail.com, +919966879987, 435,DLF...)</span>
+                <span class="method-start">150146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">157041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">158411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddContactTest(TC_009, Add another Contact, Sidhaarth, G, 1998-07-15, sidh123@gmail.com, +918797798561, 37-A,Mullai...)</span>
+                <span class="method-start">163430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">170772 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.contactDetailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">172105 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">172107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkContactDetail</span>
+                <span class="method-start">177218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">180172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">181512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteContactTest</span>
+                <span class="method-start">186737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">193060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">194406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editContactDetailTest</span>
+                <span class="method-start">199402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">207562 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.contactListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">208933 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">208934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">213968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">217556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadURL(browser, url)</span>
+                <span class="method-start">218898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateContactDisplayTest</span>
+                <span class="method-start">223949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">226115 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.signUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">reportClose</span>
+                <span class="method-start">227549 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
