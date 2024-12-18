@@ -3,17 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="herokuappTest(failed)">
     <classes>
-      <class name="test.contactDetailTest">
+      <class name="test.addContactTest">
         <methods>
-          <include name="setup"/>
           <include name="browserClose"/>
           <include name="launchAndLoadURL"/>
           <include name="reportInitilization"/>
           <include name="reportClose"/>
+          <include name="validateAddContactTest" invocation-numbers="0"/>
           <include name="testDetails"/>
-          <include name="editContactDetailTest"/>
+          <include name="config"/>
         </methods>
-      </class> <!-- test.contactDetailTest -->
+      </class> <!-- test.addContactTest -->
     </classes>
   </test> <!-- herokuappTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
