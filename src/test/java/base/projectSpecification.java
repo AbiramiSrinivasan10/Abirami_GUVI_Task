@@ -41,7 +41,7 @@ public class projectSpecification extends Utility {
 	@BeforeMethod
 	public void launchAndLoadURL(@Optional("browser")String browser, @Optional("url")String url) {
 
-		browserLaunch("chrome", "https://thinking-tester-contact-list.herokuapp.com/");
+		browserLaunch("edge", "https://thinking-tester-contact-list.herokuapp.com/");
 		
 	}
 	
